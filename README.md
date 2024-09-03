@@ -1,11 +1,20 @@
-# Consolidação do Conteúdo - Aprendizado de Máquina
+# Aplicação de várias técnicas de Machine Learning em um Dataset de Pokémon
 
+<br>
+
+O objetivo deste trabalho é aplicar e entender como as diversas técnicas de inteligência artificial podem ajudar a resolver problemas ou axiliar na tomada de decisão. Neste trabalho será usado a biblioteca sklearn do grupo scikit-learn. Algumas técnicas também serão implementadas manualmente para ter melhor visualização da lógica.
+
+<br>
+
+O trabalho está em formato  __ipynb__, com textos explicando as técnicas de Machine Learning, códigos organizados e gráficos. Pode esperar um trabalho complexo, explicativo e organizado sobre os códigos.
+
+<br>
 
 ***
 
-# Dataset
+## Dataset escolhido
 
-O tema do dataset escolhido é Pokémon. Os Pokémons são mundialmente conhecidos e são destacados por cada criatura ter suas características únicas que as definem. O dataset escolhido para esse trabalho conta com uma lista de 13 características e 1072 Pokémons.
+O tema do dataset escolhido é Pokémon. Os Pokémons são mundialmente conhecidos e são destacados por cada criatura ter suas características únicas que as definem. O primeiro Pokémon foi lançado em 1996, e com o passar do tempo, muitas criaturas foram criadas, resultando em um dataset com uma lista de 13 características e 1072 Pokémons. Cada criatura é única, e a combinação de tipos e valores de estatísticas, além de uma grande quantidade de Pokémon existe faz esse dataset ser uma boa escolha para a proposta deste trabalho.
 
 As características são:
 - __Number__ (_Número_): É o ID de cada Pokémon.
@@ -24,12 +33,4 @@ As características são:
 <br>
 <br>
 
-Como pode ser observado pelos dados fornecidos pelo dataset, e pela experiência própria com a franquia do autor deste arquivo de código  com a franquia Pokémon, não é possível afirmar com 100% de acertividade que um Pokémon é do tipo Água, Fogo ou qualquer outro tipo pelas suas estatísticas, sua geração ou se é lendário ou não. Na página do dataset, o próprio autor comenta:
-
-
->O tipo de um Pokémon não pode ser inferido apenas pelo seu Ataque e Defesa. Valeria a pena descobrir quais duas variáveis ​​podem definir o tipo de um pokémon, se houver. Duas variáveis ​​podem ser plotadas em um espaço 2D e usadas como exemplo para aprendizado de máquina. Isso pode significar a criação de um exemplo visual que qualquer turma geek de aprendizado de máquina adoraria.
-
-<br>
-
-Entretanto, os Pokémons que pertencem a um certo tipo seguem uma tendência. Segundo o Bulbapedia, um site expecializado em informações da franquia Pokémon, o tipo eletric (elétrico) tem em média 85,94 de velocidade entre todos os Pokémon desse tipo, em contra-partida os do tipo ground (terra) tem somente 61,13 de velocidade. Com essa informações, é possível prever que a probabilidade de um Pokémon que tem 90 de velocidade é maior de ser do tipo elétrico do que terra. Pontanto essa database pode ser uma ótima escolha para testar os algoritmos de aprendizado de máquina.
 
